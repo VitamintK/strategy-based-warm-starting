@@ -42,6 +42,7 @@ The paper has been cited 20 times according to [Google Scholar](https://scholar.
 #### warm-starting in ReBeL
 
 The most interesting usage was that warm-starting was used in [ReBeL](https://proceedings.neurips.cc/paper/2020/hash/c61f571dbd2fb949d3fe5ae1608dd48b-Abstract.html) experiments (also by Noam Brown et al). In [the appendix](https://proceedings.neurips.cc/paper/2020/file/c61f571dbd2fb949d3fe5ae1608dd48b-Supplemental.pdf), they state that they used a simpler method based on computing the *exact* best-response instead of the "soft" best-response (where $\upsilon'^\sigma_1+\upsilon'^\sigma_2 \leq 0$):
+
 ![screenshot of appendix from ReBeL](rebel_appendix.png)
 
 It's not clear why this choice was made.
